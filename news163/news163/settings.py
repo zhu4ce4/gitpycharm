@@ -18,7 +18,7 @@ DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 SPIDER_MIDDLEWARES = {'scrapy_splash.SplashDeduplicateArgsMiddleware': 100}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'news163 (+http://www.yourdomain.com)'
+USER_AGENT = 'Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
